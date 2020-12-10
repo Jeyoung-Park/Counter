@@ -10,6 +10,7 @@ const TitleContainer=Styled.View`
     flex:1;
     justify-content:center;
     align-items:center;
+    /* background-color:#FF1; */
 `;
 
 const TitleLabel=Styled.Text`
@@ -20,10 +21,11 @@ const CountContainer=Styled.View`
     flex:2;
     justify-content:center;
     align-items:center;
+    /* background-color:#11A; */
 `;
 
 const CountLabel=Styled.Text`
-    font-size:24px;
+    font-size:50px;
     font-weight:bold;
 `;
 
@@ -32,6 +34,7 @@ const ButtonContainer=Styled.View`
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:space-around;
+    /* background-color:#86A */
 `;
 
 interface Props{
